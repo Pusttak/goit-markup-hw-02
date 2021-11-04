@@ -13,7 +13,7 @@ body {
     color: var(--primery-text-color);
     background-color: var(--primary-bg-color);
 
-    font-family: roboto, sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -21,6 +21,10 @@ body {
 
 .list {
     list-style: none;
+}
+
+.site-nav .current {
+    color: var(--accent-color);
 }
 
 /* logo */
@@ -79,9 +83,12 @@ body {
 
 /* hero */
 
+.hero {
+    background-color: var(--footer-bg-color);
+}
+
 .hero-tittle {
     color: var(--primary-bg-color);
-    background-color: var(--footer-bg-color);
 
     font-weight: 900;
     font-size: 44px;
@@ -108,16 +115,17 @@ body {
 }
 
 .button-filter {
-color: var(--tittle-text-color);
-background-color: var(--secondary-bg-color);
+    color: var(--tittle-text-color);
+    background-color: var(--secondary-bg-color);
 
-font-weight: 500;
-font-size: 16px;
-line-height: 1.63;
-letter-spacing: 0.03em;
-cursor: pointer;
-border: none;
-border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
 }
 
 .button-filter:hover,
